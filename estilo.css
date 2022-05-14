@@ -1,6 +1,44 @@
-.topo {
+
+.h1div {
     display: flex;
+    align-items: center;
+
 }
 .topo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.divbusca {
+    width: 100%;
+}
+.divbusca {
+    display: flex;
+    justify-content: center;
+}
+.topo {
+    width: 75%;
+}
+#h1alugando {
+   font-size: 1rem;
     
+}
+.icone-menu {
+    width: 2rem;
+    padding-right: 30px;
+ 
+    
+}
+.icone-menu {
+    display: flex;
+    align-items: center;
+}
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
