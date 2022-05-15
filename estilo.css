@@ -1,8 +1,5 @@
-
-.h1div {
-    display: flex;
-    align-items: center;
-
+header {
+    background-color: #5c2c42;
 }
 .topo2 {
     display: flex;
@@ -15,12 +12,14 @@ body {
 }
 .divbusca {
     width: 100%;
+    padding: 10px;
 }
 .divbusca {
     display: flex;
     justify-content: center;
 }
 .topo {
+    height: 50px;
     width: 75%;
 }
 #h1alugando {
@@ -28,8 +27,9 @@ body {
     
 }
 .icone-menu {
-    width: 2rem;
+    width: 2.1rem;
     padding-right: 30px;
+    padding-left: 5px;
  
     
 }
@@ -41,4 +41,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+body header div div h1 {
+    color: #e2e2e2;
+    font-family: sans-serif;
 }
