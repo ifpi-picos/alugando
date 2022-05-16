@@ -46,3 +46,51 @@ body header div div h1 {
     color: #e2e2e2;
     font-family: sans-serif;
 }
+.cadastro{
+    background-color: white;
+}
+h1{
+    color: #e2e2e2;
+    padding: 10px;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.email{
+    margin-bottom: 5px;
+}
+.telefone{
+    margin-bottom: 5px;
+}
+.cidade{
+    margin-bottom: 5px;
+}
+.bairro{
+    margin-bottom: 5px;
+}
+.cep{
+    margin-bottom: 5px;
+}
+.rua{
+    margin-bottom: 5px;
+}
+.propriedade{
+    margin-bottom: 5px;
+}
+.definicao{
+    margin-bottom: 5px;
+}
+.navegacao{
+    margin-top: 50px;
+}
+.facebook{
+    padding-right: 10px;
+}
+.instagram{
+    padding-right: 10px;
+}
