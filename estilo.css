@@ -1,7 +1,7 @@
 header {
     background-color: #5c2c42;
 }
-.topo2 {
+#topo2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,34 +10,70 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.divbusca {
+#divbusca {
     width: 100%;
     padding: 10px;
 }
-.divbusca {
+#divbusca {
     display: flex;
     justify-content: center;
 }
-.topo {
+#topo {
     height: 50px;
     width: 75%;
 }
 #h1alugando {
+    padding-left: 30px;
    font-size: 1rem;
     
 }
-.icone-menu {
+#btn-mobile {
     width: 2.1rem;
     padding-right: 30px;
     padding-left: 5px;
- 
+
     
 }
-.icone-menu {
+#btn-mobile {
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+
+}
+#spanbtn {
+    border-top: 2px solid;
+    width: 20px;
+}
+#spanbtn::after, #spanbtn::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: white;
+}
+#menu{
+    display: none;
+    
+    /*display: block;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+   
+    height: calc(100vh - 70px);
+    z-index: 1000;
+}
+#nav.aactive #menu {
+    display: block;*/
+}
+#btn-mobile {
     display: flex;
     align-items: center;
 }
-.topo {
+#topo {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,6 +82,44 @@ body header div div h1 {
     color: #e2e2e2;
     font-family: sans-serif;
 }
+<<<<<<< HEAD
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+@media (min-width: 550px) {
+    #menu {
+        display: flex;
+    }
+    #h1alugando {
+        padding-left: 20px;
+    }
+    #topo {
+        width: 100%;
+    }
+    #btn-mobile{
+        display: none;
+    }
+    #nav {
+        display: flex;
+    }
+    #nav{
+        padding-right: 20px;
+    }
+    #topo {
+        display: flex;
+        justify-content: space-between;
+    }
+    body header div nav ul li {
+        list-style: none;
+        padding-left: 15px;
+    }
+    body header div nav ul {
+        display: flex;
+    }
+}
+=======
 .cadastro{
     background-color: white;
 }
@@ -94,3 +168,4 @@ main form{
 .instagram{
     padding-right: 10px;
 }
+>>>>>>> f55b81b760167e659531d69c2812b4680c3f052b
