@@ -6,21 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alugando</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <div class="topo">
-            <span class="menu-mobile">
-            <img class="icone-menu" src="menu.svg" alt="ícone de menu com três barrinhas">
-            </span>
+        <div id="topo">
+            <button id="btn-mobile">Menu
+                <span id="spanbtn"></span>
+            </button>
+            <script src="script.js"></script>
+                
+            <div id="h1alugando"><h1>ALUGANDO</h1></div>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
+                    <li><a href="cadastroLoc.html">Cadastrar Imóvel</a></li>
+                </ul>
             
-            <div class="h1alugando"><h1>ALUGANDO</h1></div>
+        </nav>
         </div>
-        <div class="topo2">
-            <div class="divbusca">
-                <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                <button id="btnBusca">Buscar</button>
-            </div>
+        <div id="topo2">
+        <div id="divbusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <button id="btnBusca">Buscar</button>
         </div>
     </header>
     
