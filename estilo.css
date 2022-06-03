@@ -134,10 +134,13 @@ header main{
 .cadastro{
     background-color: white;
     padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 h1{
     color: #e2e2e2;
     padding: 10px;
+    margin-left: 30%;
 }
 main form{
     display: flex;
@@ -180,9 +183,11 @@ main form{
 }
 .botaosalvar{
     margin-top: 5px;
-    margin-right: 50%;
+    margin-right: 80%;
+    margin-left: 10px;
+    border-radius: 5px;
     background-color: #e2e2e2;
-    padding: 5px;
+    padding: 10px;
     border-color: #5c2c42;
     color: #5c2c42;
 }
