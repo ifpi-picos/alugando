@@ -132,7 +132,7 @@ header main{
     background-color: #5c2c42;
 }
 .cadastro{
-    background-color: white;
+    background-color: #e2e2e2;
     padding: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -150,10 +150,43 @@ main form{
 .name{
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 50%;
+    width: 100%;
 }
-.cpf{
-    margin-bottom: 5px;
+#name{
+    width: 70%;
+}
+#email{
+    width: 70%;
+}
+#telefone{
+    width: 70%;
+}
+#cidade{
+    width: 70%;
+}
+#bairro{
+    width: 70%;
+}
+#cep{
+    width: 70%;
+}
+#rua{
+    width: 70%;
+}
+#caracteristica{
+    width: 70%;
+}
+#definicao{
+    width: 70%;
+}
+#valor{
+    width: 70%;
+}
+#senha{
+    width: 70%;
+}
+#confirmaSenha{
+    width: 70%;
 }
 .email{
     margin-bottom: 5px;
@@ -173,7 +206,7 @@ main form{
 .rua{
     margin-bottom: 5px;
 }
-.propriedade{
+.caracteristica{
     margin-bottom: 5px;
 }
 .definicao{
