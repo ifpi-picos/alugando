@@ -77,7 +77,7 @@
       position: absolute;
       top: 8vh;
       left: 0;
-      width: 50vw;
+      width: 60vw;
       height: 92vh;
       background: #5c2c42;
       flex-direction: column;
@@ -115,9 +115,6 @@
       opacity: 1;
       transform: translateX(0);
     }
-  }
-  .nav-list li {
-      padding-left: 4vw;
   }
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
