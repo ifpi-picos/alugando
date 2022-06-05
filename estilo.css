@@ -63,9 +63,9 @@
   
   .mobile-menu div {
     width: 32px;
-    height: 2px;
+    height: 3px;
     background: #fff;
-    margin: 8px;
+    margin: 7px;
     transition: 0.3s;
   }
   
