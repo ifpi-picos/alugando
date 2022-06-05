@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alugando</title>
-    <link rel="stylesheet" href="estilo.css">
-    <script src="script.js"></script>
-</head>
-<body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALUGANDO</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+
+  <body>
     <header>
-        <div id="topo">
-            <button id="btn-mobile">Menu
-                <span id="spanbtn"></span>
-            </button>
-            <script src="script.js"></script>
-                
-            <div id="h1alugando"><h1>ALUGANDO</h1></div>
-            <nav id="nav">
-                <ul id="menu">
-                    <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
-                    <li><a href="cadastroLoc.html">Cadastrar Imóvel</a></li>
-                </ul>
+      <nav>
+        <a class="logo" href="/">ALUGANDO</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="cadastroLoc.html">Cadastrar Imóvel</a></li>
+          <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
+        </ul>
+      </nav>
+      <div class="busca">
+        <form action=" " method="post">
+            <label for="busca"></label>
             
-        </nav>
-        </div>
-        <div id="topo2">
-        <div id="divbusca">
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            <button id="btnBusca">Buscar</button>
-        </div>
+            <div class="divbusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <button class="btnBusca">Buscar</button>
+            </div>
+      
+        </form>
+      </div>
     </header>
-    
-</body>
+    <main></main>
+    <script src="main.js"></script>
+  </body>
 </html>
