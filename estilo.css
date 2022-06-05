@@ -116,7 +116,9 @@
       transform: translateX(0);
     }
   }
-  
+  .nav-list li {
+      padding-left: 4vw;
+  }
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
