@@ -127,6 +127,9 @@
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+  .corpoPagina{
+    background-color: white;
+  }
 /*Cadastro de locador*/
 
 body {
@@ -242,3 +245,10 @@ button:hover{
 }
  /* Cadastro de inquilino */
 
+.cadastroInq{
+  background-color: #e2e2e2;
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+ }

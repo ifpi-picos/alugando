@@ -8,82 +8,69 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div>
-        <h1>CADASTRO INQUILINO</h1>
-    </div>
-
-    <form>
+    <main>
         <div>
-            <label>Nome completo:</label><br>
-            <input type="text" nome="name" id="nome">
+            <h1>Cadastro Inquilino</h1>
         </div>
+    
+        <form class="cadastroInq">
+            <div>
+                <label class="" for="name">Nome completo:</label><br>
+                <input type="text" nome="name" id="nome">
+            </div>
+    
+            <div>
+                <label>Email:</label><br>
+                <input type="email" nome="email" id="email">
+            </div>
+    
+            <div>
+                <label>Telefone:</label><br>
+                <input type="phone" nome="telefone" id="telefone">
+            </div>
+    
+            <div>
+                <label>Idade:</label><br>
+                <input type="text" nome="idade" id="idade">
+            </div>
+    
+            <div>
+                <label>Cidade:</label><br>
+                <input type="text" name="Cidade" id="Cidade">
+            </div>
+    
+            <div>
+                <label>Tipo de moradia:</label><br>        
+                   <input type="radio" name="tipo"  >Casa <br>
+                    <input type="radio" name="tipo" >Apartamento <br>
+                    <input type="radio" name="tipo"  >Kitnet <br>      
+            </div>
+    
+            <div>
+                <label>Você trabalha?</label><br>
+                   <input type="radio" name="tipo" >Sim <br>
+                    <input type="radio" name="tipo" >Não <br>
+            </div>
+    
+            <div>
+                <label>Você estuda?</label><br>
+                   <input type="radio" name="tipo" >Sim <br>
+                   <input type="radio" name="tipo"  >Não <br>
+            </div>
+    
+            <div>
+                <label>Quantidade de pessoas:</label><br>
+                <select id="Quantidade de pessoas">
+                    <option selected disabled value="">Informe</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4 ou mais</option>
+            </div>
+    
+            <button>Cadastrar</button>
+        </form>
+    </main>
 
-        <div>
-            <label>Email:</label><br>
-            <input type="email" nome="email" id="email">
-        </div>
-
-        <div>
-            <label>Telefone:</label><br>
-            <input type="number" nome="telefone" id="telefone">
-        </div>
-
-        <div>
-            <label>Idade:</label><br>
-            <input type="text" nome="idade" id="idade">
-        </div>
-
-        <div>
-            <label>Cidade:</label><br>
-            <input type="text" nome="Cidade" id="Cidade">
-        </div>
-
-        <div>
-            <label>Tipo de moradia:</label><br>
-            <label>
-               <input type="radio" nome="Alugando" id="Sim" checked>Casa <br>
-            </label>
-            <label>
-                <input type="radio" nome="Alugando" id="Não" checked>Apartamento <br>
-             </label>
-            <label>
-                <input type="radio" nome="Alugando" id="Sim" checked>Kitnet <br>
-            </label>
-        </div>
-
-        <div>
-            <label>Você trabalha?</label><br>
-            <label>
-               <input type="radio" nome="Alugando" id="Sim" checked>Sim <br>
-            </label>
-            <label>
-                <input type="radio" nome="Alugando" id="Não" checked>Não <br>
-             </label>
-            <label>
-        </div>
-
-        <div>
-            <label>Você estuda?</label><br>
-            <label>
-               <input type="radio" nome="Alugando" id="Sim" checked>Sim <br>
-            </label>
-            <label>
-                <input type="radio" nome="Alugando" id="Não" checked>Não <br>
-             </label>
-            <label>
-        </div>
-
-        <div>
-            <label>Quantidade de pessoas:</label><br>
-            <select id="Quantidade de pessoas">
-                <option selected disabled value="">Informe</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4 ou mais</option>
-        </div>
-
-        <button type="submit">Cadastrar</button>
-    </form>
 </body>
 </html>
