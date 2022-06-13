@@ -129,12 +129,12 @@
   }
 /*Cadastro de locador*/
 
+body {
+    background-color: #5c2c42;
+}
 main{
     padding-left: 20%;
     padding-right: 20%;
-}
-header main{
-    background-color: #5c2c42;
 }
 .cadastro{
     background-color: #e2e2e2;
@@ -230,9 +230,15 @@ main form{
     border-color: #5c2c42;
     color: #5c2c42;
 }
+button:hover{
+  filter: brightness(0.7);
+  cursor: pointer;
+}
 .facebook{
     padding-right: 10px;
 }
 .instagram{
     padding-right: 10px;
 }
+ /* Cadastro de inquilino */
+
