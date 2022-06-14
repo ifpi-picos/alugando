@@ -131,9 +131,7 @@
     background-color: white;
   }
 /*Cadastro de locador*/
-body{
 
-}
 .titulo{
   background-color: #5c2c42;
   padding: 20px;
@@ -230,6 +228,11 @@ input{
   border-radius: 5px;
 }
 #confirmaSenha{
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+}
+#idade{
   width: 90%;
   padding: 5px;
   border-radius: 5px;
