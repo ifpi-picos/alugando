@@ -28,8 +28,8 @@
       padding-bottom: 3vh;
     
   }
-  header {
-    background: #5c2c42;
+  .topoPagina{
+    background-color: #5c2c42;
   }
   
   nav {
@@ -131,29 +131,43 @@
     background-color: white;
   }
 /*Cadastro de locador*/
+body{
 
-body {
-    background-color: #5c2c42;
 }
-main{
-    padding-left: 20%;
-    padding-right: 20%;
+.titulo{
+  background-color: #5c2c42;
+  padding: 20px;
+  color: #e2e2e2;
+}
+.titulo:hover{
+  filter: brightness(0.7);
+}
+form{
+  background-color: white;
+  padding: 10px;
+  margin-inline: auto;
+  text-align: center;
+  max-width: 400px;
+  width: 80%;
+  border: 2px solid #5c2c42;
+  border-radius: 5px;
 }
 .cadastro{
-    background-color: #e2e2e2;
-    padding: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 5px;
-}
-h1{
-    color: #e2e2e2;
+    color:#5c2c42;
     padding: 10px;
     margin-left: 18%;
+    margin-inline: auto;
+    text-align: center;
+    max-width: 400px;
 }
 main form{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+
+}
+input{
+  width: 100%;
+  margin-bottom: 10px;
 }
 .name{
     margin-top: 5px;
@@ -161,40 +175,64 @@ main form{
     width: 100%;
 }
 #name{
-    width: 70%;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
 }
 #email{
-    width: 70%;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
 }
 #telefone{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #cidade{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #bairro{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #cep{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #rua{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #caracteristica{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #definicao{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #valor{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #senha{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 #confirmaSenha{
-    width: 70%;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 .email{
     margin-bottom: 5px;
@@ -224,14 +262,12 @@ main form{
     margin-top: 50px;
 }
 .botaosalvar{
-    margin-top: 5px;
-    margin-right: 60%;
-    margin-left: 10px;
-    border-radius: 5px;
-    background-color: #e2e2e2;
-    padding: 10px;
-    border-color: #5c2c42;
-    color: #5c2c42;
+  margin-right: 22px;
+  border-radius: 5px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  border-color: #5c2c42;
+  color: #5c2c42;
 }
 button:hover{
   filter: brightness(0.7);
@@ -246,7 +282,7 @@ button:hover{
  /* Cadastro de inquilino */
 
 .cadastroInq{
-  background-color: #e2e2e2;
+  background-color: white;
   padding: 10px;
   margin-left: 20%;
   margin-right: 20%;
