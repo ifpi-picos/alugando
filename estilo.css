@@ -130,13 +130,15 @@
   .corpoPagina{
     background-color: white;
   }
-/*Cadastro de locador*/
+/*Cadastro de locador e inquilino*/
 
 .titulo{
   background-color: #5c2c42;
   padding: 20px;
-  color: #e2e2e2;
+  color: #fff;
   text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-left: 3vw;
 }
 .titulo:hover{
   filter: brightness(0.7);
