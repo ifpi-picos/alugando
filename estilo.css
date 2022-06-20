@@ -18,18 +18,43 @@
     text-transform: uppercase;
     letter-spacing: 4px;
   }
+  
   .form-busca {
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #5c2c42;
   }
   .divbusca {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 3vh;
-    
+    border-radius: 15px;
+    height: 35px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: white;
+     
+  }
+  .btnBusca {
+    background-color: white;
+    border: 0;
+  }
+  .lupaBusca{
+    width: 22px;
+  }
+  .txtBusca{
+    height: 30px;
+    width: 20vw;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .busca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .topoPagina{
     background-color: #5c2c42;
@@ -78,7 +103,7 @@
     }
     .nav-list {
       position: absolute;
-      top: 8vh;
+      top: 18.5vh;
       left: 0;
       width: 70vw;
       height: 92vh;
@@ -107,6 +132,9 @@
   
   .nav-list.active {
     transform: translateX(0);
+  }
+  .txtBusca {
+    width: 25vw;
   }
   
   @keyframes navLinkFade {
