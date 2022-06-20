@@ -51,6 +51,11 @@
     margin: 0;
     padding: 0;
   }
+
+  .txtBusca:focus-visible{
+    outline: none;
+  }
+  
   .busca {
     display: flex;
     align-items: center;
