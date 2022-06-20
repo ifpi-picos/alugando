@@ -10,34 +10,50 @@
 
 </head>
 <body>
-    <header>
+    <header class="topoPagina">
+        <nav>
+          <a class="logo" href="/">ALUGANDO</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="cadastroLoc.html">Cadastrar Locador</a></li>
+            <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
+          </ul>
+        </nav>
+        <div class="busca">
+          <form class="form-busca" action=" " method="post">
+              <label for="busca"></label>
         
+          </form>
+        </div>
+      </header>
+
         <main>
-            <div class="titulo">
-                <h1 >Alugando</h1>
-            </div>
 
             <h1 class="cadastro" >Cadastro Locador</h1>
 
-
             <form action="">
-                <label class="" for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                <label class="" for="name">Name:</label>
+                <input type="text" id="name" name="name" required> <br>
 
-                <label class="" for="email">E-mail</label>
+                <label class="" for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label class="" for="telefone">Telefone</label>
+                <label class="" for="telefone">Telefone:</label>
                 <input type="tel" id="telefone" name="'telefone" required>
 
-                <label class="" for="cidade">Cidade</label>
+                <label class="" for="cidade">Cidade:</label>
                 <input type="" id="cidade" name="cidade" required>
 
 
-                <label class="" for="bairro">Bairro</label>
+                <label class="" for="bairro">Bairro:</label>
                 <input type="text" id="bairro" name="bairro" required>
 
-                <label class="" for="cep">CEP</label>
+                <label class="" for="cep">CEP:</label>
                 <input type="number" id="cep"  name="cep" required>
 
                 <label class="" for="rua">Rua</label>
@@ -82,7 +98,6 @@
 
             </form>
         </main>
-    </header>
     
 </body>
 <script src="main.js

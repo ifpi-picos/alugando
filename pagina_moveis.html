@@ -8,10 +8,32 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <div></div>
-
-    </header>
+    <header class="topoPagina">
+        <nav>
+          <a class="logo" href="/">ALUGANDO</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="cadastroLoc.html">Cadastrar Locador</a></li>
+            <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
+          </ul>
+        </nav>
+        <div class="busca">
+          <form class="form-busca" action=" " method="post">
+              <label for="busca"></label>
+              
+              <div class="divbusca">
+                  <input type="text" class="txtBusca" placeholder="Buscar..."/>
+                  <button class="btnBusca"><img src="loupe-blue.svg" alt="lupa" class="lupaBusca"></button>
+              </div>
+        
+          </form>
+        </div>
+      </header>
 
 </body>
 </html>

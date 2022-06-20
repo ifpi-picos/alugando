@@ -167,9 +167,9 @@
   background-color: #5c2c42;
   padding: 20px;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: 4px;
   padding-left: 3vw;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 .titulo:hover{
   filter: brightness(0.7);
@@ -203,67 +203,71 @@ input{
 }
 #name{
     width: 90%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
 #email{
     width: 90%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
+#email::after{
+  border-bottom: #5c2c42;
+}
+
 #telefone{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #cidade{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #bairro{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #cep{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #rua{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #caracteristica{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #definicao{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #valor{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #senha{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #confirmaSenha{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 #idade{
   width: 90%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 .email{
@@ -296,10 +300,10 @@ input{
 .botaosalvar{
   margin-right: 22px;
   border-radius: 5px;
-  background-color: #e2e2e2;
+  background-color: #5c2c42;
   padding: 10px;
   border-color: #5c2c42;
-  color: #5c2c42;
+  color: white;
 }
 button:hover{
   filter: brightness(0.7);
