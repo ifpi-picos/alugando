@@ -201,6 +201,7 @@ input{
   padding: 5px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
+  background-color: rgb(218, 207, 207);
 }
 .name{
     margin-top: 5px;
