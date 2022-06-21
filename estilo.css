@@ -244,17 +244,17 @@ input{
 #caracteristica{
   width: 90%;
   padding: 10px;
-  border-radius: 29px;
+  border-radius: 20px;
 }
 #definicao{
   width: 90%;
   padding: 10px;
-  border-radius: 29px;
+  border-radius: 20px;
 }
 #valor{
   width: 90%;
   padding: 10px;
-  border-radius: 29px;
+  border-radius: 20px;
 }
 #senha{
   width: 90%;
@@ -318,12 +318,13 @@ button:hover{
 }
 .facebook{
     padding-right: 10px;
+    border-radius: 5px;
 }
 .instagram{
     padding-right: 10px;
 }
 .linkedin{
-  border-radius: 5px;
+  border-radius: 9px;
 }
 /*login*/
 
@@ -337,9 +338,13 @@ button:hover{
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(175, 173, 173);
 }
-.facebook2{
-  border-radius: 5px;
+.navegacao2{
   
 }
-
+.facebookC{
+  width: 30px;
+}
+.linkedinC{
+  width: 10px;
+}
 
