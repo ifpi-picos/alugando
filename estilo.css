@@ -216,10 +216,6 @@ input{
     padding: 10px;
     border-radius: 5px;
 }
-#email::after{
-  border-bottom: #5c2c42;
-}
-
 #telefone{
   width: 90%;
   padding: 10px;
@@ -275,6 +271,10 @@ input{
   padding: 10px;
   border-radius: 5px;
 }
+#botaosalvar{
+  width: 96%;
+  padding: 10px;
+}
 .email{
     margin-bottom: 5px;
 }
@@ -320,14 +320,13 @@ button:hover{
 .instagram{
     padding-right: 10px;
 }
+.linkedin{
+  border-radius: 5px;
+}
 /*login*/
 
 .cadastraSe{
   background-color: white;
-}
-.botaologin{
-  color: black; 
-
 }
 
 
