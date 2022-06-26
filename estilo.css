@@ -102,12 +102,18 @@ main {
   transition: 0.3s;
 }
 
-
+.corpoPagina{
+  background-color: rgb(224, 224, 224);
+}
+.body-index {
+  background-color: rgb(224, 224, 224) ;
+}
 
 .corpoPagina{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+ 
 }
 #ul-lcc {
   top: 10vh;
@@ -128,8 +134,8 @@ main {
   width: 31%;
   height: 70%;
   border-style: double;
-  border-color: rgb(233, 233, 233);
-  background-color: rgb(248, 245, 245);
+  border-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 10px;
   margin: 10px;
   
@@ -151,7 +157,7 @@ main {
   width: 95%;
   height: 95%;
   margin-top: 2.5%;
-  border-radius: 10px;
+  border-radius: 5px;
   
 }
 
@@ -227,9 +233,7 @@ main {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-.corpoPagina{
-  background-color: white;
-}
+
 /*Cadastro de locador e inquilino*/
 
 .titulo{
