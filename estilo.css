@@ -101,19 +101,9 @@ main {
   margin: 7px;
   transition: 0.3s;
 }
-.anuncios{
-  width: 31%;
-  height: 50%;
-  background-color: bisque;
-  border-radius: 10px;
-  margin: 10px;
-  
 
-}
-.anuncios{
-  display: flex;
 
-}
+
 .corpoPagina{
   display: flex;
   flex-wrap: wrap;
@@ -134,13 +124,43 @@ main {
 .navegacao a {
   padding-right: 7px;
 }
+.anuncios{
+  width: 31%;
+  height: 70%;
+  border-style: double;
+  border-color: rgb(233, 233, 233);
+  background-color: rgb(248, 245, 245);
+  border-radius: 10px;
+  margin: 10px;
+  
 
-@media (max-width: 880px) {
+}
+.anuncios{
+  display: flex;
+}
+
+
+
+.imgAnuncio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 65%;
+}
+.imgAnuncio img {
+  width: 95%;
+  height: 95%;
+  margin-top: 2.5%;
+  border-radius: 10px;
+  
+}
+
+@media (max-width: 1200px) {
   .anuncios {
     width: 45%;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 555px) {
   .anuncios {
     width: 90%;
   }
