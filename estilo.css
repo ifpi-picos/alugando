@@ -324,19 +324,6 @@ button:hover {
   cursor: pointer;
 }
 
-.facebook {
-  padding-right: 10px;
-  border-radius: 5px;
-}
-
-.instagram {
-  padding-right: 10px;
-}
-
-.linkedin {
-  border-radius: 9px;
-}
-
 /*login*/
 
 .cadastraSe {
@@ -355,16 +342,7 @@ button:hover {
   margin-top: 20px;
   margin-left: 40%;
 }
-
-.facebookC {
-  width: 30px;
-}
-
-.linkedinC {
-  width: 30px;
-}
-
-.googleC {
+.redes{
   width: 30px;
 }
 
