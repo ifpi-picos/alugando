@@ -355,18 +355,13 @@ form {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-input {
+input, textarea {
   padding: 5px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   background-color: rgb(218, 207, 207);
 }
-textarea{
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  background-color: rgb(218, 207, 207);
-}
+
 /* campus do login*/
 .campos-login{
   width: 100%;
@@ -382,11 +377,15 @@ textarea{
   color: white;
   text-align: center;;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover {
   filter: brightness(0.7);
   cursor: pointer;
+}
+.tabelacadastro{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*login*/
@@ -416,7 +415,9 @@ button:hover {
   background-color: white;
 }
 .btnEdicao{
-  display: flex;;
+  display: flex;
+  padding: 5px;
+  margin: 10px;
 }
 #txtanuncio {
   padding-bottom: 5px;
@@ -425,8 +426,10 @@ button:hover {
 }
 #deleteanuncio{
   background-color: rgb(184, 17, 17);
-  padding: 10px;
+  margin: 2px; 
+  font-family: Arial, Helvetica, sans-serif;
 }
-#salvaEdicao{
-  margin: 10px;
+#salvarEdicao{
+  margin: 2px; 
+  font-family: Arial, Helvetica, sans-serif;
 }
