@@ -415,3 +415,6 @@ button:hover {
 .txtBusca {
   background-color: white;
 }
+.btnEdicao{
+  display: flex;
+}

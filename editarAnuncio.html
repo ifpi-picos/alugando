@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Locador</title>
+    <title>Seus Anuncios</title>
     <link rel="stylesheet" href="estilo.css">
 
 </head>
@@ -19,9 +19,7 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-list" id="ul-lcc">
-            <li><a href="login.html">Login</a></li>
-            <li><a href="cadastroLoc.html">Cadastrar Locador</a></li>
-            <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
+            <li><a href="pagina_moveis.html">Sair</a></li>
           </ul>
         </nav>
        
@@ -33,7 +31,7 @@
 
         <main>
 
-            <h1 class="cadastro" >Cadastro Locador</h1>
+            <h1 class="cadastro" >Seus Anuncios</h1>
 
             <form action="">
                 <label class="" for="name">Name:</label>
@@ -74,10 +72,15 @@
 
 
                 <label class="" for="confirmaSenha">Confirmar senha:</label>
-                <input class="campos-login"  type="password" id="confirmaSenha" name="confirmaSenha" required>                            
+                <input class="campos-login"  type="password" id="confirmaSenha" name="confirmaSenha" required>               
                 
-                <a href="pagina_moveis.html"  class="campos-login botaosalvar" id="botaosalvar">Cadastrar</a>
                 
+                <div class="btnEdicao">
+                    <a href="pagina_moveis.html"  class="campos-login botaosalvar" id="salvarEdicao">Salvar</a>
+                    <a href="pagina_moveis.html"  class="campos-login botaosalvar" id="deleteanuncio">Delete</a>
+                </div>
+                
+
                 <div class="navegacao">
                     <a href="facebook-fill.svg">
                         <img class="redes" src="facebook-fill.svg" alt="Facebook">

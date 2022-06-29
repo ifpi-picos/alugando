@@ -1,39 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de imóveis</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-    <header class="topoPagina">
-        <nav>
-          <a class="logo" href="/">ALUGANDO</a>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li><a href="login.html">Login</a></li>
-            <li><a href="cadastroLoc.html">Cadastrar Locador</a></li>
-            <li><a href="cadastroInq.html">Cadastrar Inquilino</a></li>
-          </ul>
-        </nav>
-        <div class="busca">
-          <form class="form-busca" action=" " method="post">
-              <label for="busca"></label>
-              
-              <div class="divbusca">
-                  <input type="text" class="txtBusca" placeholder="Buscar..."/>
-                  <button class="btnBusca"><img src="loupe-blue.svg" alt="lupa" class="lupaBusca"></button>
-              </div>
-        
-          </form>
-        </div>
-      </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALUGANDO</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
 
-</body>
+  <body class="body-index">
+    <header class="topoPagina">
+      <nav>
+        <a class="logo" href="index.html">ALUGANDO</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="editarAnuncio.html">Editar Anuncio</a></li>
+          <li><a href="index.html">Sair</a></li>
+        </ul>
+      </nav>
+      <div class="busca">
+        <form class="form-busca" action=" " method="post">
+            <label for="busca"></label>
+            
+            <div class="divbusca">
+                <input type="text" class="txtBusca" placeholder="O que está procurando?"/>
+                <button class="btnBusca"><img src="loupe-blue.svg" alt="lupa" class="lupaBusca"></button>
+            </div>
+      
+        </form>
+      </div>
+    </header>
+    <main class="corpoPagina">
+      <div class="anuncios">
+        <div class="imgAnuncio"><img src="img/imagem1.webp" alt="imagem do apartamento"></div>
+        <div class="descricaoAnuncio">
+          <div>
+          <p class="apartCasa">Apartamento</p>
+          <p class="nomeRua">Rua São Pedro</p>
+          <p class="quantInq">Apartamento Vazio</p>
+          <p class="valorAp">R$ 2.500</p>
+          </div>
+          <div>
+          <p class="quantQuartos">Quartos: 3</p>
+          <p class="tamanhoAp">dimensões: 100m²</p>
+          <p class="contatosAnuncio">
+          <div class="btnWpp"><a href="#">WhatsApp</a></div>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="anuncios">
+        <div class="imgAnuncio"><img src="img/imagem2.jpg" alt="imagem do apartamento"></div>
+        <div class="descricaoAnuncio">
+          <div>
+          <p class="apartCasa">Apartamento</p>
+          <p class="nomeRua">Rua Nossa Senhora</p>
+          <p class="quantInq">Apartamento Vazio</p>
+          <p class="valorAp">R$ 2.000</p>
+          </div>
+          <div>
+          <p class="quantQuartos">Quartos: 3</p>
+          <p class="tamanhoAp">dimensões: 80m²</p>
+          <p class="contatosAnuncio">
+          <div class="btnWpp"><a href="#">WhatsApp</a></div>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="anuncios">
+        <div class="imgAnuncio"><img src="img/imagem3.jpg" alt="imagem do apartamento"></div>
+        <div class="descricaoAnuncio">
+          <div>
+          <p class="apartCasa">Apartamento</p>
+          <p class="nomeRua">Rua João Felix</p>
+          <p class="quantInq">Apartamento Vazio</p>
+          <p class="valorAp">R$ 1.800</p>
+          </div>
+          <div>
+          <p class="quantQuartos">Quartos: 2</p>
+          <p class="tamanhoAp">dimensões: 70m²</p>
+          <p class="contatosAnuncio">
+          <div class="btnWpp"><a href="#">WhatsApp</a></div>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="anuncios">
+        <div class="imgAnuncio"><img src="img/imagem4.jpg" alt="imagem do apartamento"></div>
+        <div class="descricaoAnuncio">
+          <div>
+          <p class="apartCasa">Apartamento</p>
+          <p class="nomeRua">Rua Arlindo Nogueira</p>
+          <p class="quantInq">Apartamento Vazio</p>
+          <p class="valorAp">R$ 1.000</p>
+          </div>
+          <div>
+          <p class="quantQuartos">Quartos: 1</p>
+          <p class="tamanhoAp">dimensões: 60m²</p>
+          <p class="contatosAnuncio">
+          <div class="btnWpp"><a href="#">WhatsApp</a></div>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="anuncios">
+        <div class="imgAnuncio"><img src="img/imagem5.jpg" alt="imagem do apartamento"></div>
+        <div class="descricaoAnuncio">
+          <div>
+          <p class="apartCasa">Apartamento</p>
+          <p class="nomeRua">Rua Estrada Antiga</p>
+          <p class="quantInq">Apartamento Vazio</p>
+          <p class="valorAp">R$ 2.800</p>
+          </div>
+          <div>
+          <p class="quantQuartos">Quartos: 3</p>
+          <p class="tamanhoAp">dimensões: 100m²</p>
+          <p class="contatosAnuncio">
+          <div class="btnWpp"><a href="#">WhatsApp</a></div>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="anuncios">
+        <div class="imgAnuncio"><img src="img/imagem6.jpg" alt="imagem do apartamento"></div>
+        <div class="descricaoAnuncio">
+          <div>
+          <p class="apartCasa">Apartamento</p>
+          <p class="nomeRua">Rua São João</p>
+          <p class="quantInq">Apartamento Vazio</p>
+          <p class="valorAp">R$ 2.100</p>
+          </div>
+          <div>
+          <p class="quantQuartos">Quartos: 2</p>
+          <p class="tamanhoAp">dimensões: 80m²</p>
+          <p class="contatosAnuncio">
+          <div class="btnWpp"><a href="#">WhatsApp</a></div>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+  
+    <script src="header.js"></script>
+  </body>
 </html>
