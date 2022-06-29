@@ -418,3 +418,9 @@ button:hover {
 .btnEdicao{
   display: flex;
 }
+#salvarEdicao, #deleteanuncio{
+  margin: 10px;
+}
+#deleteanuncio{ 
+  background-color: rgb(245, 22, 22);
+}
