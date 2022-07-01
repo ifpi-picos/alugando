@@ -9,18 +9,17 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
-
 a:hover {
   opacity: 0.7;
 }
-
+/*Nome Alugando*/
 .logo {
   padding-left: 3vw;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-
+/*barra de busca*/
 .form-busca {
   height: 8vh;
   display: flex;
@@ -67,12 +66,11 @@ a:hover {
   justify-content: center;
   padding-bottom: 8px;
 }
-
+/*Div superior a barra de busca*/
 .topoPagina {
   background-color: #5c2c42;
 }
-
-nav {
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,7 +95,7 @@ main {
   letter-spacing: 3px;
   margin-left: 32px;
 }
-
+/*menu amburguer (3 barrinhas)*/
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -250,7 +248,9 @@ main {
 
 @media (max-width: 999px) {
   body {
-    overflow-x: hidden;
+
+    overflow-x: hidden; /*escoonde tudo que fica fora do body*/
+
   }
 
   .nav-list {
